@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    /* line-height: 1.6em; */
+    background: #2a3047;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main{
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
+}
